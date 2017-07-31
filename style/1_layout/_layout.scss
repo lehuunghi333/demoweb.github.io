@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------
+
+------------------------------------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.p-wrapper {
+    background-color: #000;
+}
+
+.l-container {
+    max-width: $baseWidth1;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.l-main {
+    max-width: 750px;
+    width: 100%;
+    float: left;
+    padding-right: 50px;
+    margin-top: 40px;
+}
+
+.active {
+    line-height: 1.8rem;
+    span {
+        border-bottom: 1px solid $color2;
+        color: $color2 !important;
+    }
+}

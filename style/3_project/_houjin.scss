@@ -1,0 +1,16 @@
+.l-houjin {
+    .c-imggroup {
+        text-align: center;
+        padding: 30px 0 120px;
+        &__item:nth-child(2) {
+            margin: 0 17px;
+        }
+    }
+    .c-title {
+        font-size: 2.8rem;
+        text-align: center;
+        color: #dfb433;
+        background-color: color4;
+        padding: 20px 0 0 0;
+    }
+}

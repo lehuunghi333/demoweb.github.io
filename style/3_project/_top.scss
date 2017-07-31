@@ -1,0 +1,445 @@
+/*------------------------------------------------------------
+	top page
+------------------------------------------------------------*/
+
+
+/* 
+------------------------------------------------------------*/
+
+.l-slider {
+    padding: 20px 15px 36px;
+    background: url("../image/bg_slide.png") no-repeat;
+    color: #fff;
+}
+
+.c-left_slide {
+    width: 670px;
+    float: left;
+    &__time {
+        padding-left: 5px;
+        width: 124px;
+        font-size: 1.8rem;
+    }
+    &__time-item {
+        margin-top: 5px;
+        padding: 2px 5px;
+        background: red;
+        /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left, #ff0000, transparent);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #ff0000, transparent);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #ff0000, transparent);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, #ff0000, transparent);
+        /* Standard syntax */
+        a {
+            color: #fff;
+        }
+    }
+    &__info {
+        padding-right: 50px;
+        &-item {
+            padding-top: 115px;
+            font-size: 3.4rem;
+        }
+    }
+}
+
+.c-right_slide {
+    text-align: center;
+    width: 300px;
+    padding-left: 15px;
+    float: left;
+    &__quotation {
+        font-size: 2rem;
+    }
+    &__phone {
+        padding: 5px 0;
+        font-size: 3rem;
+        img {
+            display: inline !important;
+            vertical-align: middle !important;
+        }
+    }
+    &__info {
+        font-size: 1.5rem;
+    }
+    &__24h {
+        padding-top: 10px;
+        font-size: 2.2rem;
+        span {
+            font-size: 3.6rem;
+        }
+    }
+    &__corporate {
+        padding: 25px 20px;
+        font-size: 1.8rem;
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.3);
+        border: 1px solid #fff;
+        line-height: 2rem;
+        margin: 80px 10px 0;
+    }
+    &__corporate--custom {
+        border-color: $color2;
+    }
+}
+
+.l-unused {
+    box-sizing: border-box;
+    margin: 60px 0 20px 0;
+    border: 1px solid #fff;
+    .c-imgunused-title__img {
+        width: 998px;
+    }
+}
+
+.c-customer {
+    display: flex;
+    &__individuals {
+        width: 50%;
+        text-align: center;
+        background: url("../image/individuals.png") no-repeat;
+        padding: 30px 0;
+    }
+    &__individuals-item {
+        margin: 0 50px;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding-bottom: 20px;
+        &__title {
+            color: #fff;
+            font-size: 2rem;
+            background-color: $color2;
+            margin-bottom: 20px;
+        }
+        &__items {
+            display: flex;
+            padding: 0 15px;
+            text-align: left;
+            &-text {
+                width: 250px;
+                margin-left: 20px;
+            }
+            &-text__title {
+                font-size: 1.6rem;
+                color: $color1;
+                line-height: 3rem;
+            }
+            &-text__info {
+                font-size: 1.3rem;
+            }
+        }
+        &__items-img {
+            width: 115px;
+            height: 110px;
+            background-color: #fff;
+            border-radius: 50%;
+            box-shadow: 0px 3px 5px #c1c1c1;
+            -moz-box-shadow: 0px 3px 5px #c1c1c1;
+            -webkit-box-shadow: 0px 3px 5px #c1c1c1;
+            -o-box-shadow: 0px 3px 5px #c1c1c1;
+        }
+    }
+    &__individuals--corporations {
+        background: url("../image/corporations.png") no-repeat;
+        .c-customer__individuals-item__title {
+            background-color: $color1;
+        }
+        .c-customer__individuals-item:last-child {
+            padding-bottom: 45px;
+        }
+    }
+}
+
+.l-cheaptruck {
+    margin-top: 40px;
+    background: url("../image/bg-cheaptruck.png") no-repeat;
+    text-align: center;
+    border: 1px solid #fff;
+    overflow: hidden;
+    padding-bottom: 10px;
+    .c-title {
+        font-size: 4.6rem;
+        color: #fff;
+        position: relative;
+        letter-spacing: -2px;
+        &::before {
+            text-align: left;
+            padding-left: 20px;
+            position: absolute;
+            content: "大好評！";
+            font-size: 2.5rem;
+            background: #f80000;
+            /* For browsers that do not support gradients */
+            background: -webkit-linear-gradient(left, #f80000, #6c0000);
+            /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(right, #f80000, #6c0000);
+            /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(right, #f80000, #6c0000);
+            /* For Firefox 3.6 to 15 */
+            background: linear-gradient(to right, #f80000, #6c0000);
+            /* Standard syntax */
+            width: 250px;
+            -ms-transform: rotate(-15deg);
+            /* IE 9 */
+            -webkit-transform: rotate(-15deg);
+            /* Safari */
+            transform: rotate(-15deg);
+            left: -15px;
+            top: -5px;
+        }
+    }
+    .c-collect {
+        color: #fff;
+        font-size: 2.6rem;
+        background-color: $color2;
+        margin: 5px 10px;
+        position: relative;
+        &::after {
+            content: "";
+            height: 75px;
+            width: 147px;
+            position: absolute;
+            background: url("../image/xetai.png") no-repeat;
+            right: 0;
+            top: -55px;
+        }
+    }
+}
+
+.c-cheaptruck-group {
+    display: inline-block;
+    margin: 15px;
+    background-color: #f3f1e6;
+    &__title {
+        text-align: left;
+        padding: 2px 15px;
+        font-size: 2rem;
+        color: #fff;
+        background-color: $color2;
+    }
+    &--item1 {
+        .c-room {
+            &__basiccharge {
+                padding-top: 0;
+            }
+        }
+    }
+    &--item2 {
+        .c-room {
+            &::before {
+                background: url("../image/price_2.png") no-repeat;
+                height: 128px;
+                width: 234px;
+            }
+        }
+    }
+    &--item3 {
+        .c-room {
+            &::before {
+                background: url("../image/price_3.png") no-repeat;
+                height: 134px;
+                width: 251px;
+            }
+        }
+    }
+    &--item4 {
+        .c-room {
+            &::before {
+                background: url("../image/price_4.png") no-repeat;
+                height: 141px;
+                width: 248px;
+            }
+        }
+    }
+}
+
+.c-room {
+    width: 450px;
+    height: 190px;
+    text-align: left;
+    padding: 0 10px;
+    position: relative;
+    &::before {
+        top: 10px;
+        right: 10px;
+        height: 114px;
+        width: 173px;
+        content: "";
+        position: absolute;
+        background: url("../image/price_1.png") no-repeat;
+    }
+    &__as {
+        font-size: 1.6rem;
+        padding: 5px 0;
+    }
+    &__price {
+        font-size: 2.4rem;
+        line-height: 2.4rem;
+        color: $color2;
+    }
+    &__worker {
+        padding-top: 5px;
+        &-item {
+            padding: 2px 0;
+            a {
+                font-size: 1.3rem;
+                color: $color1;
+            }
+            i {
+                color: $color2;
+            }
+        }
+    }
+    &__electronics {
+        color: $color2;
+        font-size: 1.4rem;
+        padding-top: 20px;
+        span {
+            font-size: 1.8rem;
+        }
+    }
+    &__basiccharge {
+        font-size: 1.3rem;
+        padding-top: 28px;
+    }
+}
+
+.l-satisfaction {
+    font-size: 2.8rem;
+    text-align: center;
+    color: #dfb433;
+    background-color: $color4;
+    padding: 20px 0;
+    margin: 50px 0 20px 0;
+}
+
+.l-main__info {
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: justify;
+    line-height: 2.2rem;
+    padding-bottom: 25px;
+}
+
+.l-beginners {
+    margin-top: 25px;
+    .c-infotext {
+        font-size: 1.3rem;
+        color: #fff;
+        padding-top: 20px;
+    }
+}
+
+.l-recycle3f {
+    margin: 20px 0 50px 0;
+    background-color: $color3;
+    padding-bottom: 30px;
+    .c-title {
+        text-align: center;
+        background-color: $color4;
+        font-size: 2.8rem;
+        color: #dfb433;
+        padding: 10px 0
+    }
+    .c-process {
+        padding: 20px 0;
+        display: flex;
+        border-bottom: 1px solid #888;
+        margin: 0 20px;
+        &__img {
+            width: 240px;
+            img {
+                height: 210px;
+                width: 220px;
+                padding-top: 5px;
+            }
+        }
+        &__info {
+            width: 415px;
+            &-title {
+                font-size: 1.8rem;
+                color: #dfb433;
+            }
+            &-text {
+                font-size: 1.2rem;
+                color: #fff;
+            }
+        }
+        &__info-list {
+            margin-top: 30px;
+            &__item {
+                display: inline-block;
+                padding: 5px 10px;
+                background-color: $color2;
+                line-height: 2rem;
+            }
+            a {
+                color: #fff;
+                font-size: 1.6rem;
+            }
+            span {
+                font-size: 1.6rem;
+                margin: 0 10px;
+                color: #fff;
+            }
+            &--item2 {
+                margin-top: 90px;
+            }
+            &--item3 {
+                margin-top: 70px;
+            }
+        }
+    }
+}
+
+
+/* custom slick slider */
+
+.slick-next,
+.slick-prev {
+    position: absolute;
+    right: -35px;
+    bottom: -10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: $color3;
+    font-size: 4rem;
+}
+
+.slick-prev {
+    left: -35px;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    padding: 0 !important;
+}
+
+.img_slider {
+    width: 1000px !important;
+}
+
+.slick-dots {
+    float: right;
+    li {
+        display: inline-block;
+        margin-left: 2px;
+        height: 10px;
+        cursor: pointer;
+        button {
+            cursor: pointer;
+            border: none;
+            width: 30px;
+            font-size: 0;
+            height: 2px;
+        }
+    }
+    .slick-active {
+        button {
+            background-color: $color2;
+        }
+    }
+}

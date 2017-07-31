@@ -1,0 +1,27 @@
+.c-commercial {
+    border: 1px solid $color3;
+    padding: 5px 10px;
+    border-bottom: 10px solid $color3;
+    .c-commercial-item {
+        padding: 10px 2px 10px 18px;
+        line-height: 1.8rem;
+        position: relative;
+        border-bottom: 1px solid $color3;
+    }
+    .c-commercial-item:last-child {
+        border: none;
+    }
+    a {
+        color: #fff;
+        font-size: 1.3rem;
+    }
+    i {
+        position: absolute;
+        font-size: 0.6rem;
+        padding: 3px 4px;
+        color: $color1;
+        background-color: $color3;
+        left: 0;
+        top: 12px;
+    }
+}

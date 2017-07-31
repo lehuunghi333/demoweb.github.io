@@ -1,0 +1,19 @@
+.c-pickup {
+    background-color: #f3f1e6;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    &__item1 {
+        color: #fff;
+        background-color: $color2;
+        font-size: 1.6rem;
+        padding: 7px 0;
+        span {
+            padding: 0 15px;
+        }
+    }
+    &__item2 {
+        padding: 20px 20px 0;
+        font-size: 1.2rem;
+        color: $color1;
+    }
+}

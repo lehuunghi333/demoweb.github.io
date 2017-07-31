@@ -1,0 +1,20 @@
+.l-breadcrumb {
+    background-color: $color3;
+    padding-bottom: 15px;
+    hr {
+        margin: 0 0 10px 0;
+        padding: 0;
+        height: 2px;
+        background: #000;
+        width: 100%;
+        border: none;
+        box-shadow: 0 2px 6px #000;
+    }
+    .c-breadcrumb__item {
+        display: inline-block;
+    }
+    a {
+        color: #fff;
+        font-size: 1.2rem;
+    }
+}

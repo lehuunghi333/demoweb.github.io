@@ -1,0 +1,89 @@
+/*------------------------------------------------------------
+						Footer
+------------------------------------------------------------*/
+
+
+/* 
+------------------------------------------------------------*/
+
+#footer {
+    margin-top: 80px;
+    @include clear;
+    .l-container {
+        background: url("../image/bg_footer.png") no-repeat;
+    }
+    .l-footer__scrolltop {
+        float: right;
+        margin-top: -30px;
+        color: #fff;
+        font-size: 1.2rem;
+        background-color: $color2;
+        padding: 3px 8px;
+        border-radius: 3px;
+        font-weight: bold;
+        cursor: pointer;
+        i {
+            padding-right: 5px;
+            font-size: 1.4rem;
+        }
+    }
+    .c-nav {
+        float: none;
+        text-align: left;
+        padding: 30px 25px;
+        border-bottom: 1px solid $color3;
+        &__menu-item {
+            display: inline-block;
+            border: none;
+            padding: 0 20px;
+            font-size: 1.4rem;
+            position: relative;
+            letter-spacing: -1.2px;
+        }
+        i {
+            top: 0px;
+            left: 5px;
+            position: absolute;
+            padding: 3px 4px;
+            background-color: #999;
+            font-size: 0.8rem;
+        }
+    }
+    .l-footer {
+        margin-top: 30px;
+    }
+    .l-footer__item {
+        display: flex;
+    }
+    .c-commercial {
+        border: none;
+        padding: 20px 30px 45px 30px;
+        .c-commercial-item {
+            padding: 3px 20px;
+            border: none;
+        }
+        .c-commercial-item:last-child {
+            border: none;
+        }
+        a {
+            color: #fff;
+            font-size: 1.3rem;
+        }
+        i {
+            top: 5px;
+            color: $color1;
+            background-color: #999;
+        }
+    }
+    .c-commercial--icon {
+        i {
+            background-color: $color2;
+        }
+    }
+    .c-copyright {
+        text-align: right;
+        color: #fff;
+        font-size: 1.1rem;
+        padding: 3px 5px;
+    }
+}

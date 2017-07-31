@@ -1,0 +1,57 @@
+<footer id="footer">
+	<div class="l-footer">
+		<div class="l-container">
+			<div class="l-footer__scrolltop" id="back-top">
+				<i class="fa fa-arrow-up" aria-hidden="true"></i>TOP
+			</div>
+			<nav class="c-nav">
+				<ul class="c-nav__menu">
+					<li class="c-nav__menu-item"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="">サイトマップ</a></li>
+					<li class="c-nav__menu-item"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="">ホーム</a></li>
+					<li class="c-nav__menu-item"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="">買取・回収の流れ</a></li>
+					<li class="c-nav__menu-item"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="">価格表</a></li>
+					<li class="c-nav__menu-item"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="">よくある質問</a></li>
+					<li class="c-nav__menu-item"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="">会社概要</a></li>
+				</ul>
+			</nav>
+			<div class="l-footer__item">
+				<ul class="c-commercial">
+					<li class="c-commercial-item"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="">法人のお客様 </a></li>
+					<li class="c-commercial-item"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="">業務用厨房機器買取・無料回収・格安処分 </a></li>
+					<li class="c-commercial-item"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="">店舗用品買取・無料回収・格安処分  </a></li>
+					<li class="c-commercial-item"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="">オフィス機器買取 ・無料回収・格安処分 </a></li>
+				</ul>
+				<ul class="c-commercial c-commercial--icon">
+					<li class="c-commercial-item"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="">個人のお客様</a></li>
+					<li class="c-commercial-item"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="">家具家電買取・無料回収・格安処分</a></li>
+					<li class="c-commercial-item"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="">パソコン・ゲーム機器・小型家電無料回収</a></li>
+					<li class="c-commercial-item"><i class="fa fa-chevron-right" aria-hidden="true"></i><a href="">不用品回収・ゴミ処分・遺品整理</a></li>
+				</ul>
+			</div>
+			<p class="c-copyright">CopyRight © リサイクルマスター英雄 All Right Reserved.</p>
+		</div>
+	</div>
+</footer>
+<!-- End Footer -->
+
+</div>
+
+<script>
+	$('#back-top').click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 800);
+		return false;
+	});
+	function setActive() {
+		aObj = document.getElementById('nav').getElementsByTagName('a');
+		for (i = 0; i < aObj.length; i++) {
+			if (document.location.href.indexOf(aObj[i].href) >= 0) {
+				aObj[i].className = 'active';
+			}
+		}
+	}
+
+	window.onload = setActive;
+
+</script>

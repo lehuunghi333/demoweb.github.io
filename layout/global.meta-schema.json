@@ -1,0 +1,63 @@
+{
+    "_$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string",
+            "propertyOrder": 0
+        },
+        "url": {
+            "type": "string",
+            "propertyOrder": 1
+        },
+        "navigation": {
+            "title": "",
+            "uniqueItems": false,
+            "items": {
+                "title": "",
+                "description": "",
+                "propertyOrder": 1000,
+                "options": {
+                    "hidden": false
+                },
+                "type": "object",
+                "properties": {
+                    "list-arrow": {
+                        "type": "string",
+                        "default": ""
+                    },
+                    "url": {
+                        "type": "string",
+                        "default": ""
+                    },
+                    "en-list-arrow": {
+                        "type": "string",
+                        "default": ""
+                    }
+                }
+            },
+            "propertyOrder": 3,
+            "options": {
+                "hidden": false
+            },
+            "type": "array",
+            "format": "table"
+        },
+        "logo-home": {
+            "title": "",
+            "description": "",
+            "default": "",
+            "format": "upload",
+            "required": false,
+            "readOnly": false,
+            "pattern": "",
+            "propertyOrder": 2,
+            "minLength": 0,
+            "maxLength": 140,
+            "options": {
+                "hidden": false
+            },
+            "type": "string"
+        }
+    }
+}

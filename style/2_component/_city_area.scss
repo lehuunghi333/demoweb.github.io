@@ -1,0 +1,47 @@
+.l-city_area {
+    margin-top: 30px;
+    .c-tokyo {
+        margin-top: 40px;
+        padding: 20px 10px 10px;
+        border: 1px solid $color2;
+        background-color: $color4;
+        position: relative;
+        &:after {
+            position: absolute;
+            width: 130px;
+            height: 24px;
+            content: "東京都";
+            top: -12.5px;
+            left: -1px;
+            background: url("../image/red.png") no-repeat;
+            font-size: 1.5rem;
+            padding: 5px 8px;
+            color: #fff;
+            font-weight: 700;
+        }
+        .c-tokyo__item {
+            color: #fff;
+            font-size: 1.2rem;
+            line-height: 2.4rem;
+        }
+    }
+    .c-tokyo--yellow {
+        border: 1px solid #dfb433;
+        &:after {
+            content: "埼玉県";
+            background: url("../image/yellow.png") no-repeat;
+        }
+    }
+    .c-tokyo--sliver {
+        border: 1px solid #ccc;
+        &:after {
+            content: "千葉県";
+            background: url("../image/sliver.png") no-repeat;
+        }
+    }
+    .c-citysome_area {
+        font-size: 1.3rem;
+        color: #fff;
+        padding-top: 5px;
+    }
+}

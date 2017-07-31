@@ -1,0 +1,23 @@
+.l-aboutus {
+    .c-title {
+        margin-bottom: 20px;
+    }
+    .c-table {
+        display: flex;
+        font-size: 1.3rem;
+        color: #fff;
+        line-height: 2rem;
+        &__left {
+            background-color: $color4;
+            width: 230px;
+            padding: 5px 10px;
+            margin: 3px 3px 0 0;
+        }
+        &__right {
+            background-color: $color3;
+            width: 700px;
+            padding: 5px 10px;
+            margin: 3px 0 0 0;
+        }
+    }
+}

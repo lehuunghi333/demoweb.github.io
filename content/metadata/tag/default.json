@@ -1,0 +1,11 @@
+{
+    "sortBy": "title",
+    "reverse": false,
+    "metadata": {},
+    "displayName": "Default",
+    "perPage": 10,
+    "noPageOne": true,
+    "layout": "default.tag.html",
+    "first": ":categoryPath/index.html",
+    "path": ":categoryPath/page/:num/index.html"
+}

@@ -1,0 +1,25 @@
+{{#extend "default"}} {{#content "main"}}
+<section id="p-main">
+    <div class="l-breadcrumb">
+        <hr>
+        <div class="l-container">
+            <ul class="c-breadcrumb">
+                <li class="c-breadcrumb__item"><a href="">ホーム ＞</a></li>
+                <li class="c-breadcrumb__item active"><a href="">買取・回収の流れ</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="l-container">
+        <div class="l-main">
+            <div class="l-flow_of_purchase">
+                {{#block "collection"}} {{> collection}} {{/block}}
+                <h2 class="c-title title-bg">買取・回収の流れ</h2>
+                <p class="c-commer">業務用厨房機器・店舗用品・オフィス機器・オフィス用品・PC・ゲーム・家電家具等。リサイクルマスター英雄では法人のお客様から個人のお客様まで幅広く様々な品を承ります。回収品目に関しましてはお気軽にご相談下さい。
+                </p>
+                {{#block "collected"}} {{> collected}} {{/block}} {{#block "map"}} {{> map}} {{/block}} {{#block "city_area"}} {{> city_area}}
+                {{/block}}
+            </div>
+        </div>
+    </div>
+</section>
+{{/content}} {{/extend}}

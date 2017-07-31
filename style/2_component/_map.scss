@@ -1,0 +1,36 @@
+.l-map {
+    margin-top: 60px;
+    .c-imgmap {
+        height: 360px;
+        width: 420px;
+        background: url("../image/map.png") no-repeat 60% 45%;
+        padding: 20px;
+        margin: 20px auto;
+        border: 1px solid $color3;
+        border-radius: 10px;
+        &__map {
+            display: flex;
+            color: #fff;
+            font-size: 1.4rem;
+        }
+        &__map-item {
+            padding: 5px 8px;
+            margin-left: 10px;
+            background-color: $color2;
+        }
+        &__map-item--yellow {
+            background-color: #dfb433;
+        }
+        &__map-item--silver {
+            background-color: #999;
+        }
+        &__some_areas {
+            margin: 10px 10px;
+            color: #fff;
+            font-size: 1.4rem;
+            padding: 5px 6px;
+            background-color: #999;
+            display: inline-block;
+        }
+    }
+}

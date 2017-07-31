@@ -1,0 +1,39 @@
+.l-kojin_gomiihin--bg {
+    .c-title {
+        padding: 15px 25px 0 25px;
+        font-size: 4rem;
+        color: #fff;
+        line-height: 5.8rem;
+    }
+}
+
+.l-kojin_gomiihin {
+    .c-quotation__img--mod {
+        margin-top: 10px;
+    }
+    &--bg {
+        margin-top: 30px;
+        background: url("../image/kojin_gomiihin/kojin_gomiihin.png") no-repeat;
+    }
+    .l-banner {
+        margin: 0;
+        padding: 10px 25px 40px 25px;
+        .c-img {
+            margin: -30px 0 0 93px;
+        }
+    }
+    .c-collected_items {
+        text-align: center;
+        margin: 10px -8.5px;
+        &__img {
+            padding: 8.5px 8.5px;
+        }
+    }
+    .c-collected_info {
+        color: #fff;
+        font-size: 1.3rem;
+        &__item {
+            margin-bottom: 20px;
+        }
+    }
+}

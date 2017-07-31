@@ -1,0 +1,44 @@
+{{#extend "default"}} {{#content "main"}}
+<section id="p-main">
+    <div class="l-breadcrumb">
+        <hr>
+        <div class="l-container">
+            <ul class="c-breadcrumb">
+                <li class="c-breadcrumb__item"><a href="">ホーム ＞</a></li>
+                <li class="c-breadcrumb__item active"><a href="">オフィス機器 買取・無料回収・格安処分 </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="l-container">
+        <div class="l-houjin_office">
+            <h2 class="c-title">オフィス機器・用品・家具の丸ごと買取 <br>無料回収・格安処分を承ります!
+            </h2>
+            <div class="l-banner">
+                <div class="c-info">
+                    {{#block "banner"}} {{> banner}} {{/block}}
+                </div>
+                <div class="c-img">
+                    <img src="/image/houjin_office/icon-bg.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="l-satisfaction l-satisfaction--mod">
+        <div class="l-container">
+            オフィス機器 買取・無料回収・格安処分
+        </div>
+    </div>
+    <div class="l-container">
+        <div class="l-main">
+            <p class="l-main__info">
+                不要になったオフィス用品・オフィス機器の買取ならリサイクルマスター英雄にお任せ！オフィス機器等の丸ごと買取・無料回収・格安処分を承ります。処分をご検討の方はお気軽にご相談ください！相談・お見積りは無料！即日・夜間でも対応が可能です！
+            </p>
+            <h2 class="c-title title-bg">買取・回収品目例</h2>
+            <p class="c-commer">OA機器・パソコン・机（デスク）・椅子（チェア）・カウンター・ロッカー・ビジネスフォンなど、その他にもいろいろお取り扱いしております。 ＊回収用品に関しましてはお気軽にご相談下さい。
+            </p>
+            {{#block "collected"}} {{> collected}} {{/block}} {{#block "collection_img"}} {{> collection_img}} {{/block}} {{#block "collection"}}
+            {{> collection}} {{/block}} {{#block "map"}} {{> map}} {{/block}} {{#block "city_area"}} {{> city_area}} {{/block}}
+        </div>
+    </div>
+</section>
+{{/content}} {{/extend}}

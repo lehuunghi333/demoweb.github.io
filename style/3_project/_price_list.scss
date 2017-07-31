@@ -1,0 +1,177 @@
+/*------------------------------------------------------------
+    price list
+------------------------------------------------------------*/
+
+
+/* 
+------------------------------------------------------------*/
+
+.c-recommend {
+    .c-cheaptruck-group {
+        margin: 20px 0 0 0;
+        display: block;
+        padding-bottom: 20px;
+        &--item2 {
+            .c-cheaptruck-group__recommend-img__item2 {
+                padding-top: 10px;
+            }
+        }
+        &--item3 {
+            .c-cheaptruck-group__recommend-img__item2 {
+                padding-top: 5px;
+            }
+        }
+        &--item5 {
+            padding-bottom: 0;
+            .c-room {
+                &__basiccharge {
+                    padding-top: 0;
+                }
+            }
+        }
+        .c-example_collection {
+            margin: 5px 20px;
+            border: 1px solid $color2;
+            padding: 10px 10px;
+            &__item1 {
+                font-size: 1.4rem;
+                padding-bottom: 5px;
+            }
+            &__item2 {
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .c-cheaptruck-group__recommend {
+        display: flex;
+        &-img {
+            width: 300px;
+            text-align: center;
+            img {
+                padding-top: 20px;
+            }
+        }
+        .c-room {
+            height: auto;
+            padding: 10px 10px;
+            &::before {
+                background: none;
+            }
+            &__as {
+                font-size: 2.4rem;
+            }
+            &__price {
+                font-size: 3.4rem;
+            }
+            &__info {
+                color: #555;
+                font-size: 1.4rem;
+                padding: 10px 0;
+            }
+            &__electronics {
+                padding-top: 0px;
+            }
+        }
+    }
+    .c-notes {}
+}
+
+.c-notes {
+    margin: 30px 0 40px;
+    &__title {
+        color: #dfb433;
+        font-size: 2.8rem;
+        text-align: center;
+        background-color: $color4;
+        padding: 5px 0;
+    }
+    &__group {
+        background-color: $color3;
+        padding: 15px;
+        color: #fff;
+        &-item {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            padding-left: 10px;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: "";
+                border-left: 4px solid #dfb433;
+                height: 16px;
+                left: 0;
+                top: 1px;
+            }
+        }
+    }
+}
+
+.c-calculate {
+    margin-top: 20px;
+    &__info {
+        font-size: 1.3rem;
+        color: #fff;
+        padding: 15px 0 30px 0;
+    }
+}
+
+.c-calculate__excalculation {
+    background-color: $color3;
+    text-align: center;
+    padding-bottom: 30px;
+    &-title {
+        color: #dfb433;
+        font-size: 2.8rem;
+        background-color: $color4;
+        padding: 5px 0;
+    }
+    &-procedure {
+        padding: 20px 0;
+        margin-bottom: 10px;
+        position: relative;
+        &::before {
+            width: 32px;
+            height: 40px;
+            content: "";
+            position: absolute;
+            background: url("../image/pricelist/chevron_down.png") no-repeat;
+            left: 50%;
+            margin-left: -20px;
+            top: 85px;
+        }
+        &--mod {
+            padding: 22px 0;
+            &::before {
+                top: 110px;
+            }
+        }
+    }
+    &-pay {
+        background-color: #f3f1e6;
+        color: $color2;
+        font-size: 1.6rem;
+        padding: 10px 0;
+        margin: 30px 20px 0;
+        span {
+            font-size: 2.6rem;
+        }
+    }
+}
+
+.c-special_fee {
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 10px;
+    &-item1 {
+        color: #dfb433;
+        font-size: 1.8rem;
+        span {
+            font-size: 1.3rem;
+            color: #fff;
+        }
+    }
+    &-item2 {
+        color: #fff;
+    }
+}

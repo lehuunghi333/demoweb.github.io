@@ -1,0 +1,32 @@
+{
+    "title": "Your Website Setting",
+    "url": "https://your-domain.com",
+    "navigation": [
+        {
+            "list-arrow": "ホーム",
+            "url": "/index.html",
+            "en-list-arrow": "Home"
+        },
+        {
+            "list-arrow": "買取・回収の流れ",
+            "url": "/flow_of_purchase",
+            "en-list-arrow": "Flow of Purchase & Collect"
+        },
+        {
+            "list-arrow": "価格表",
+            "url": "/price_list",
+            "en-list-arrow": "Price List"
+        },
+        {
+            "list-arrow": "よくある質問",
+            "url": "/fqa",
+            "en-list-arrow": "FAQ"
+        },
+        {
+            "list-arrow": "会社概要",
+            "url": "/aboutus",
+            "en-list-arrow": "About Us"
+        }
+    ],
+    "logo-home": "/image/logo.png"
+}
